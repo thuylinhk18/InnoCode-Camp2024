@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>Villa Agency - Property Detail Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      margin: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/place.css">
+  <!--
+
+TemplateMo 591 villa agency
+
+https://templatemo.com/tm-591-villa-agency
+
+-->
+</head>
+
+<body>
+  <div class="common-background">
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <div class="sub-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8">
+            <ul class="info">
+              <li><i class="fa fa-envelope"></i> info@company.com</li>
+              <li><i class="fa fa-map"></i> Sunny Isles Beach, FL 33160</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <ul class="social-links">
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://x.com/minthu" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <h1>TRAVEL</h1>
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="properties.html">Tìm kiếm HDV</a></li>
+                <li><a href="property-details.html" class="active">Tìm kiếm Khách Du Lịch</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
+              </ul>
+              <a class='menu-trigger'>
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- *** Header Area End *** -->
+
+
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>FIND YOUR OWN CUSTOMER NOW!</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="section best-deal">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="section-heading">
+              <h6>| Why?</h6>
+              <h2>Help you find your FREE & LOCAL <br>tour gide!</br></h2>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="tabs-content">
+              <div class="row">
+                <div class="nav-wrapper ">
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab"
+                        data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment"
+                        aria-selected="true">Free</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button"
+                        role="tab" aria-controls="villa" aria-selected="false">Quick</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse"
+                        type="button" role="tab" aria-controls="penthouse" aria-selected="false">Useful</button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="appartment" role="tabpanel"
+                    aria-labelledby="appartment-tab">
+                    <div class="row">
+                      <div class="col-lg-7">
+                        <img src="assets/images/free.jpeg" alt="">
+                      </div>
+                      <div class="col-lg-5">
+                        <h4>All Info About Apartment</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut
+                          labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog
+                          twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie
+                          hella venmo after messenger poutine next level humblebrag swag franzen.</p>
+                        <div class="icon-button">
+                          <a href="#choose-city"><i class="fa fa-calendar"></i>Find here!</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="villa" role="tabpanel" aria-labelledby="villa-tab">
+                    <div class="row">
+
+                      <div class="col-lg-7">
+                        <img src="assets/images/quick.jpeg" alt="">
+                      </div>
+                      <div class="col-lg-5">
+                        <h4>Detail Info About New Villa</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut
+                          labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog
+                          twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie
+                          hella venmo after messenger poutine next level humblebrag swag franzen.</p>
+                        <div class="icon-button">
+                          <a href="#choose-city"><i class="fa fa-calendar"></i>Find here!</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="penthouse" role="tabpanel" aria-labelledby="penthouse-tab">
+                    <div class="row">
+
+                      <div class="col-lg-7">
+                        <img src="assets/images/useful.jpeg" alt="">
+                      </div>
+                      <div class="col-lg-5">
+                        <h4>Extra Info About Penthouse</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut
+                          Kinfolk tonx seitan crucifix 3 wolf moon bicycle rights keffiyeh snackwave wolf same vice,
+                          chillwave vexillologistlabore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag
+                          fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch
+                          twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
+                        <div class="icon-button">
+                          <a href="#choose-city"><i class="fa fa-calendar"></i>Find here!</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Tim kiem!-->
+ 
+  <div class="container">
+    <hr style="color: #27A1EF">
+    <div class="row">
+      <div class="label-choose-city" id="choose-city">
+        <label for="province-select"><b>Choose the city you want to travel here!</b></label>
+      </div>
+      <div class="select-city">
+        <select id="province-select">
+          <option value="angiang">An Giang</option>
+          <option value="brvt">Bà Rịa Vũng Tàu</option>
+          <option value="baclieu">Bạc Liêu</option>
+          <option value="bacgiang">Bắc Giang</option>
+          <option value="backan">Bắc Kạn</option>
+          <option value="bacninh">Bắc Ninh</option>
+          <option value="bentre">Bến Tre</option>
+          <option value="binhduong">Bình Dương</option>
+          <option value="binhdinh">Bình Định</option>
+          <option value="binhphuoc">Bình Phước</option>
+          <option value="binhthuan">Bình Thuận</option>
+          <option value="camau">Cà Mau</option>
+          <option value="caobang">Cao Bằng</option>
+          <option value="cantho">Cần Thơ</option>
+          <option value="danang">Đà Nẵng</option>
+          <option value="daklak">Đắk Lắk</option>
+          <option value="daknong">Đắk Nông</option>
+          <option value="dienbien">Điện Biên</option>
+          <option value="dongnai">Đồng Nai</option>
+          <option value="dongthap">Đồng Tháp</option>
+          <option value="gialai">Gia Lai</option>
+          <option value="hagiang">Hà Giang</option>
+          <option value="hanam">Hà Nam</option>
+          <option value="hanoi">Hà Nội</option>
+          <option value="hatinh">Hà Tĩnh</option>
+          <option value="haiduong">Hải Dương</option>
+          <option value="haiphong">Hải Phòng</option>
+          <option value="haugiang">Hậu Giang</option>
+          <option value="hoabinh">Hòa Bình</option>
+          <option value="hungyen">Hưng Yên</option>
+          <option value="khanhoa">Khánh Hòa</option>
+          <option value="kiengiang">Kiên Giang</option>
+          <option value="kontum">Kon Tum</option>
+          <option value="laichau">Lai Châu</option>
+          <option value="langson">Lạng Sơn</option>
+          <option value="laocai">Lào Cai</option>
+          <option value="lamdong">Lâm Đồng</option>
+          <option value="longan">Long An</option>
+          <option value="namdinh">Nam Định</option>
+          <option value="nghean">Nghệ An</option>
+          <option value="ninhbinh">Ninh Bình</option>
+          <option value="ninhthuan">Ninh Thuận</option>
+          <option value="phutho">Phú Thọ</option>
+          <option value="phuyen">Phú Yên</option>
+          <option value="quangbinh">Quảng Bình</option>
+          <option value="quangnam">Quảng Nam</option>
+          <option value="quangngai">Quảng Ngãi</option>
+          <option value="quangninh">Quảng Ninh</option>
+          <option value="quangtri">Quảng Trị</option>
+          <option value="soctrang">Sóc Trăng</option>
+          <option value="sonla">Sơn La</option>
+          <option value="tayninh">Tây Ninh</option>
+          <option value="thaibinh">Thái Bình</option>
+          <option value="thainguyen">Thái Nguyên</option>
+          <option value="thanhhoa">Thanh Hóa</option>
+          <option value="hue">Thừa Thiên Huế</option>
+          <option value="tiengiang">Tiền Giang</option>
+          <option value="tphcm">TP Hồ Chí Minh</option>
+          <option value="travinh">Trà Vinh</option>
+          <option value="tuyenquang">Tuyên Quang </option>
+          <option value="vinhlong">Vĩnh Long</option>
+          <option value="vinhphuc">Vĩnh Phúc</option>
+          <option value="yenbai">Yên Bái</option>
+        </select>
+      </div>
+      <div class="user-list">
+        <table id="user-table">
+          <thead>
+            <tr>
+              <th>STT</th>
+              <th>Tên</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Người dùng sẽ được thêm vào đây -->
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+  <!--List ra danh sách người trong tpho-->
+  <script>
+    const users = {
+      "angiang": [
+        "Nguyễn Thị Hạnh",
+        "Lê Văn Hùng",
+        "Trần Thị Mai",
+        "Phạm Văn Long",
+        "Đinh Thị Lan",
+        "Ngô Văn Bình"
+      ],
+      brvt: [
+        "Nguyễn Văn Minh",
+        "Trần Thị Vân",
+        "Lê Văn Tuấn",
+        "Phạm Thị Hằng",
+        "Ngô Văn Toàn",
+        "Đinh Thị Hòa"
+      ],
+      baclieu: [
+        "Nguyễn Văn Sơn",
+        "Trần Thị Bích",
+        "Phạm Văn Dũng",
+        "Lê Thị Thu",
+        "Đinh Văn Huy",
+        "Ngô Thị Nhung"
+      ],
+      bacgiang: [
+        "Nguyễn Văn Hải",
+        "Trần Thị Tuyết",
+        "Phạm Văn Đạt",
+        "Lê Thị Hương",
+        "Đinh Văn Đức",
+        "Ngô Thị Hoa"
+      ],
+      backan: [
+        "Nguyễn Thị Thanh",
+        "Trần Văn Quang",
+        "Phạm Thị Mỹ",
+        "Lê Văn Thái",
+        "Đinh Thị Lan"
+      ],
+      bacninh: [
+        "Nguyễn Văn An",
+        "Trần Thị Kim",
+        "Phạm Văn Nam",
+        "Lê Thị Mai",
+        "Đinh Văn Vũ",
+        "Ngô Thị Hạnh"
+      ],
+      bentre: [
+        "Nguyễn Văn Khang",
+        "Trần Thị Hậu",
+        "Phạm Văn Tân",
+        "Lê Thị Tâm",
+        "Đinh Văn Ngọc",
+        "Ngô Thị Xuân"
+      ],
+      binhduong: [
+        "Nguyễn Văn Phú",
+        "Trần Thị Diệp",
+        "Phạm Văn Thắng",
+        "Lê Thị Liên",
+        "Đinh Văn Cường",
+        "Ngô Thị Lệ"
+      ],
+      binhdinh: [
+        "Nguyễn Văn Mạnh",
+        "Trần Thị Hạnh",
+        "Phạm Văn Đông",
+        "Lê Thị Yến",
+        "Đinh Văn Hiếu",
+        "Ngô Thị Thúy"
+      ],
+      binhphuoc: [
+        "Nguyễn Thị Lan",
+        "Trần Văn Thanh",
+        "Phạm Thị Ngọc",
+        "Lê Văn Hưng",
+        "Đinh Thị Hòa",
+        "Ngô Văn Tùng"
+      ],
+      binhthuan: [
+        "Nguyễn Văn Hậu",
+        "Trần Thị Nhung",
+        "Phạm Văn Khánh",
+        "Lê Thị Thảo",
+        "Đinh Văn Khoa",
+        "Ngô Thị Thanh"
+      ],
+      camau: [
+        "Nguyễn Văn Tâm",
+        "Trần Thị Huyền",
+        "Phạm Văn Hùng",
+        "Lê Thị Lan",
+        "Đinh Văn Tú",
+        "Ngô Thị Hồng"
+      ],
+      caobang: [
+        "Nguyễn Văn Quân",
+        "Trần Thị Hiền",
+        "Phạm Văn Thanh",
+        "Lê Thị Minh",
+        "Đinh Văn Thảo",
+        "Ngô Thị Dung"
+      ],
+      cantho: [
+        "Nguyễn Thị Hạnh",
+        "Trần Văn Long",
+        "Phạm Thị Hoa",
+        "Lê Văn Toàn",
+        "Đinh Thị Mai",
+        "Ngô Văn Phong"
+      ],
+      danang: [
+        "Nguyễn Văn Thịnh",
+        "Trần Thị Lan",
+        "Phạm Văn Tiến",
+        "Lê Thị Ngọc",
+        "Đinh Văn Quý",
+        "Ngô Thị Phương"
+      ],
+      daklak: [
+        "Nguyễn Văn Lâm",
+        "Trần Thị Thu",
+        "Phạm Văn Đào",
+        "Lê Thị Nhung",
+        "Đinh Văn Tân",
+        "Ngô Thị Minh"
+      ],
+      daknong: [
+        "Nguyễn Văn Hùng",
+        "Trần Thị Vân",
+        "Phạm Văn Nam",
+        "Lê Thị Hoa",
+        "Đinh Văn Tuấn",
+        "Ngô Thị Bích"
+      ],
+      dienbien: [
+        "Nguyễn Văn Sơn",
+        "Trần Thị Huyền",
+        "Phạm Văn Tú",
+        "Lê Thị Mai",
+        "Đinh Văn Hòa",
+        "Ngô Thị Thu"
+      ],
+      dongnai: [
+        "Nguyễn Văn An",
+        "Trần Thị Ngọc",
+        "Phạm Văn Tân",
+        "Lê Thị Lan",
+        "Đinh Văn Huy",
+        "Ngô Thị Hoa"
+      ],
+      dongthap: [
+        "Nguyễn Văn Tiến",
+        "Trần Thị Tuyết",
+        "Phạm Văn Khoa",
+        "Lê Thị Thu",
+        "Đinh Văn Tùng",
+        "Ngô Thị Hạnh"
+      ],
+      gialai: [
+        "Nguyễn Văn Thái",
+        "Trần Thị Hiền",
+        "Phạm Văn Vũ",
+        "Lê Thị Minh",
+        "Đinh Văn Long",
+        "Ngô Thị Mai"
+      ],
+      hagiang: [
+        "Nguyễn Văn Hải",
+        "Trần Thị Hòa",
+        "Phạm Văn Khang",
+        "Lê Thị Diệp",
+        "Đinh Văn Quân",
+        "Ngô Thị Hằng"
+      ],
+      hanam: [
+        "Nguyễn Thị Hồng",
+        "Trần Văn Phong",
+        "Phạm Thị Hương",
+        "Lê Văn Thành",
+        "Đinh Thị Bích",
+        "Ngô Văn Khoa"
+      ],
+      hanoi: [
+        "Nguyễn Văn Minh",
+        "Trần Thị Hạnh",
+        "Phạm Văn Lộc",
+        "Lê Thị Hoa",
+        "Đinh Văn Tuấn",
+        "Ngô Thị Hương"
+      ],
+      hatinh: [
+        "Nguyễn Thị Thanh",
+        "Trần Văn Đạt",
+        "Phạm Thị Mai",
+        "Lê Văn An",
+        "Đinh Thị Liên",
+        "Ngô Văn Thắng"
+      ],
+      haiduong: [
+        "Nguyễn Văn Hùng",
+        "Trần Thị Huyền",
+        "Phạm Văn Đông",
+        "Lê Thị Tuyết",
+        "Đinh Văn Khoa",
+        "Ngô Thị Thanh"
+      ],
+      haiphong: [
+        "Nguyễn Thị Nhung",
+        "Trần Văn Tiến",
+        "Phạm Thị Mai",
+        "Lê Văn Đạt",
+        "Đinh Thị Lan",
+        "Ngô Văn Bình"
+      ],
+      haugiang: [
+        "Nguyễn Văn Sơn",
+        "Trần Thị Lan",
+        "Phạm Văn Toàn",
+        "Lê Thị Minh",
+        "Đinh Văn Hòa",
+        "Ngô Thị Diệp"
+      ],
+      hoabinh: [
+        "Nguyễn Văn Hải",
+        "Trần Thị Kim",
+        "Phạm Văn Lâm",
+        "Lê Thị Nhung",
+        "Đinh Văn Long",
+        "Ngô Thị Mai"
+      ],
+      hungyen: [
+        "Nguyễn Văn An",
+        "Trần Thị Hiền",
+        "Phạm Văn Thanh",
+        "Lê Thị Huyền",
+        "Đinh Văn Quân",
+        "Ngô Thị Phương"
+      ],
+      khanhoa: [
+        "Nguyễn Thị Hạnh",
+        "Trần Văn Long",
+        "Phạm Thị Hoa",
+        "Lê Văn Toàn",
+        "Đinh Thị Mai",
+        "Ngô Văn Phong"
+      ],
+      kiengiang: [
+        "Nguyễn Văn Thịnh",
+        "Trần Thị Lan",
+        "Phạm Văn Tiến",
+        "Lê Thị Ngọc",
+        "Đinh Văn Quý",
+        "Ngô Thị Phương"
+      ],
+      kontum: [
+        "Nguyễn Văn Lâm",
+        "Trần Thị Thu",
+        "Phạm Văn Đào",
+        "Lê Thị Nhung",
+        "Đinh Văn Tân",
+        "Ngô Thị Minh"
+      ],
+      laichau: [
+        "Nguyễn Văn Hùng",
+        "Trần Thị Vân",
+        "Phạm Văn Nam",
+        "Lê Thị Hoa",
+        "Đinh Văn Tuấn",
+        "Ngô Thị Bích"
+      ],
+      langson: [
+        "Nguyễn Văn Sơn",
+        "Trần Thị Huyền",
+        "Phạm Văn Tú",
+        "Lê Thị Mai",
+        "Đinh Văn Hòa",
+        "Ngô Thị Thu"
+      ],
+      laocai: [
+        'Nguyễn Thị Thanh',
+        'Trần Văn Bình',
+        'Phạm Minh Tâm',
+        'Lê Quốc Hùng',
+        'Ngô Thị Lan',
+        'Đinh Công Sơn',
+        'Bùi Thị Hoa',
+        'Đỗ Ngọc Dũng',
+        'Phan Minh Hoàng',
+        'Hoàng Thị Mai',
+        'Vũ Văn Kiên',
+        'Cao Văn Lâm'
+      ],
+      lamdong: [
+        'Nguyễn Văn Quang',
+        'Trần Thị Hà',
+        'Phạm Thị Thu',
+        'Lê Văn Nam',
+        'Ngô Thanh Tùng',
+        'Đinh Thị Bích',
+        'Bùi Văn Hậu',
+        'Đỗ Thị Hương',
+        'Phan Thị Nhung',
+        'Hoàng Văn Long',
+        'Vũ Thị Lan',
+        'Cao Thị Liên'
+      ],
+      longan: [
+        'Nguyễn Văn Phú',
+        'Trần Thị Tuyết',
+        'Phạm Văn Khang',
+        'Lê Thị Thủy',
+        'Ngô Minh Tuấn',
+        'Đinh Thị Dung',
+        'Bùi Văn Hà',
+        'Đỗ Văn Thành',
+        'Phan Thị Loan',
+        'Hoàng Văn Hùng',
+        'Vũ Thị Nga',
+        'Cao Văn Hải'
+      ],
+      namdinh: [
+        'Nguyễn Văn Hùng',
+        'Trần Thị Thúy',
+        'Phạm Văn Lâm',
+        'Lê Thị Ngọc',
+        'Ngô Văn Hoàng',
+        'Đinh Thị Lan',
+        'Bùi Văn Tuấn',
+        'Đỗ Thị Minh',
+        'Phan Văn Sơn',
+        'Hoàng Thị Hoa',
+        'Vũ Văn Lợi',
+        'Cao Thị Hạnh'
+      ],
+      nghean: [
+        'Nguyễn Văn Hiệp',
+        'Trần Thị Thanh',
+        'Phạm Văn Nam',
+        'Lê Thị Mai',
+        'Ngô Văn Thái',
+        'Đinh Thị Huyền',
+        'Bùi Văn Tân',
+        'Đỗ Thị Bích',
+        'Phan Văn Tùng',
+        'Hoàng Thị Lan',
+        'Vũ Văn Khải',
+        'Cao Thị Hương'
+      ],
+      ninhbinh: [
+        'Nguyễn Văn Thắng',
+        'Trần Thị Nhung',
+        'Phạm Văn Kiên',
+        'Lê Thị Hồng',
+        'Ngô Văn Duy',
+        'Đinh Thị Lan',
+        'Bùi Văn Tiến',
+        'Đỗ Thị Thanh',
+        'Phan Văn Hải',
+        'Hoàng Thị Phương',
+        'Vũ Văn Vinh',
+        'Cao Thị Hồng'
+      ],
+      ninhthuan: [
+        'Nguyễn Văn An',
+        'Trần Thị Hoa',
+        'Phạm Văn Trường',
+        'Lê Thị Yến',
+        'Ngô Văn Bình',
+        'Đinh Thị Thanh',
+        'Bùi Văn Hòa',
+        'Đỗ Thị Hải',
+        'Phan Văn Bảo',
+        'Hoàng Thị Hường',
+        'Vũ Văn Kiên',
+        'Cao Thị Lan'
+      ],
+      phutho: [
+        'Nguyễn Văn Đông',
+        'Trần Thị Phượng',
+        'Phạm Văn Mạnh',
+        'Lê Thị Hạnh',
+        'Ngô Văn Bằng',
+        'Đinh Thị Quỳnh',
+        'Bùi Văn Phúc',
+        'Đỗ Thị Hường',
+        'Phan Văn Định',
+        'Hoàng Thị Minh',
+        'Vũ Văn Lộc',
+        'Cao Thị Nhàn'
+      ],
+      phuyen: [
+        'Nguyễn Văn Tuấn',
+        'Trần Thị Hà',
+        'Phạm Văn Hải',
+        'Lê Thị Hồng',
+        'Ngô Văn Toàn',
+        'Đinh Thị Huyền',
+        'Bùi Văn Trường',
+        'Đỗ Thị Kim',
+        'Phan Văn Bình',
+        'Hoàng Thị Liên',
+        'Vũ Văn Hùng',
+        'Cao Thị Hoa'
+      ],
+      quangbinh: [
+        'Nguyễn Văn Sơn',
+        'Trần Thị Phương',
+        'Phạm Văn Hải',
+        'Lê Thị Mai',
+        'Ngô Văn Hiếu',
+        'Đinh Thị Lan',
+        'Bùi Văn Bảo',
+        'Đỗ Thị Hương',
+        'Phan Văn Lâm',
+        'Hoàng Thị Lan',
+        'Vũ Văn Phú',
+        'Cao Thị Thanh'
+      ],
+      quangnam: [
+        'Nguyễn Văn Lâm',
+        'Trần Thị Mai',
+        'Phạm Văn Hùng',
+        'Lê Thị Lan',
+        'Ngô Văn Bình',
+        'Đinh Thị Lan',
+        'Bùi Văn Phúc',
+        'Đỗ Thị Hồng',
+        'Phan Văn Toàn',
+        'Hoàng Thị Hà',
+        'Vũ Văn Khôi',
+        'Cao Thị Thanh'
+      ],
+      quangngai: [
+        'Nguyễn Văn Khôi',
+        'Trần Thị Lan',
+        'Phạm Văn Phúc',
+        'Lê Thị Hồng',
+        'Ngô Văn Hoàng',
+        'Đinh Thị Bích',
+        'Bùi Văn Khánh',
+        'Đỗ Thị Minh',
+        'Phan Văn Huy',
+        'Hoàng Thị Lan',
+        'Vũ Văn Hòa',
+        'Cao Thị Mai'
+      ],
+      quangninh: [
+        'Nguyễn Văn Dũng',
+        'Trần Thị Hương',
+        'Phạm Văn Hoàng',
+        'Lê Thị Thu',
+        'Ngô Văn Khánh',
+        'Đinh Thị Hồng',
+        'Bùi Văn Huy',
+        'Đỗ Thị Hạnh',
+        'Phan Văn Toàn',
+        'Hoàng Thị Lan',
+        'Vũ Văn Thắng',
+        'Cao Thị Lan'
+      ],
+      quangtri: [
+        'Nguyễn Văn Hưng',
+        'Trần Thị Hồng',
+        'Phạm Văn Bình',
+        'Lê Thị Phương',
+        'Ngô Văn Sơn',
+        'Đinh Thị Minh',
+        'Bùi Văn Hưng',
+        'Đỗ Thị Lan',
+        'Phan Văn Thắng',
+        'Hoàng Thị Nhung',
+        'Vũ Văn Minh',
+        'Cao Thị Hồng'
+      ],
+      soctrang: [
+        'Nguyễn Văn Thanh',
+        'Trần Thị Bích',
+        'Phạm Văn Đạt',
+        'Lê Thị Thu',
+        'Ngô Văn Hùng',
+        'Đinh Thị Lan',
+        'Bùi Văn Huy',
+        'Đỗ Thị Hạnh',
+        'Phan Văn Nam',
+        'Hoàng Thị Lan',
+        'Vũ Văn Thắng',
+        'Cao Thị Lan'
+      ],
+      sonla: [
+        'Nguyễn Văn Dương',
+        'Trần Thị Hoa',
+        'Phạm Văn Hải',
+        'Lê Thị Lan',
+        'Ngô Văn Phú',
+        'Đinh Thị Hồng',
+        'Bùi Văn Sơn',
+        'Đỗ Thị Hạnh',
+        'Phan Văn Huy',
+        'Hoàng Thị Lan',
+        'Vũ Văn Thành',
+        'Cao Thị Hằng'
+      ],
+      tayninh: [
+        'Nguyễn Văn Huy',
+        'Trần Thị Thanh',
+        'Phạm Văn Hải',
+        'Lê Thị Lan',
+        'Ngô Văn Dương',
+        'Đinh Thị Hồng',
+        'Bùi Văn Hùng',
+        'Đỗ Thị Hạnh',
+        'Phan Văn Tân',
+        'Hoàng Thị Lan',
+        'Vũ Văn Thái',
+        'Cao Thị Minh'
+      ],
+
+      thaibinh: [
+        'Nguyễn Văn Thái',
+        'Trần Thị Hồng',
+        'Phạm Văn Hiệp',
+        'Lê Thị Mai',
+        'Ngô Văn Bình',
+        'Đinh Thị Huyền',
+        'Bùi Văn Hòa',
+        'Đỗ Thị Lan',
+        'Phan Văn Nam',
+        'Hoàng Thị Hồng',
+        'Vũ Văn Hùng',
+        'Cao Thị Thanh'
+      ],
+
+
+      thainguyen: [
+        'Nguyễn Văn Hùng',
+        'Trần Thị Hạnh',
+        'Phạm Văn Khoa',
+        'Lê Thị Thảo',
+        'Ngô Văn Bảo',
+        'Đinh Thị Thu',
+        'Bùi Văn Thắng',
+        'Đỗ Thị Lan',
+        'Phan Văn Đạt',
+        'Hoàng Thị Dung',
+        'Vũ Văn Minh',
+        'Cao Thị Hương'
+      ],
+      thanhhoa: [
+        'Nguyễn Văn Hoàng',
+        'Trần Thị Hằng',
+        'Phạm Văn Đức',
+        'Lê Thị Xuân',
+        'Ngô Văn Dũng',
+        'Đinh Thị Mai',
+        'Bùi Văn Phú',
+        'Đỗ Thị Hoa',
+        'Phan Văn Hải',
+        'Hoàng Thị Yến',
+        'Vũ Văn Hùng',
+        'Cao Thị Thủy'
+      ],
+      hue: [
+        'Nguyễn Văn Minh',
+        'Trần Thị Hương',
+        'Phạm Văn Long',
+        'Lê Thị Thảo',
+        'Ngô Văn Tùng',
+        'Đinh Thị Kim',
+        'Bùi Văn Khoa',
+        'Đỗ Thị Hà',
+        'Phan Văn Tài',
+        'Hoàng Thị Dung',
+        'Vũ Văn Bình',
+        'Cao Thị Mai'
+      ],
+
+      tphcm: [
+        'Nguyễn Văn Phong',
+        'Trần Thị Lan',
+        'Phạm Văn Hùng',
+        'Lê Thị Kim',
+        'Ngô Văn Thái',
+        'Đinh Thị Ánh',
+        'Bùi Văn Tiến',
+        'Đỗ Thị Hiền',
+        'Phan Văn Hào',
+        'Hoàng Thị Lý',
+        'Vũ Văn Tuấn',
+        'Cao Thị Ngọc'
+      ],
+
+      travinh: [
+        'Nguyễn Văn Dương',
+        'Trần Thị Mai',
+        'Phạm Văn Hiệp',
+        'Lê Thị Hà',
+        'Ngô Văn Thắng',
+        'Đinh Thị Hoa',
+        'Bùi Văn Tân',
+        'Đỗ Thị Vân',
+        'Phan Văn Bảo',
+        'Hoàng Thị Quyên',
+        'Vũ Văn Tuyên',
+        'Cao Thị Bình'
+      ],
+
+      tuyenquang: [
+        'Nguyễn Văn Thịnh',
+        'Trần Thị Tuyết',
+        'Phạm Văn Đông',
+        'Lê Thị Lan',
+        'Ngô Văn Kiên',
+        'Đinh Thị Hạnh',
+        'Bùi Văn Cường',
+        'Đỗ Thị Lệ',
+        'Phan Văn Tiến',
+        'Hoàng Thị Phượng',
+        'Vũ Văn Toàn',
+        'Cao Thị Vân'
+      ],
+
+      vinhlong: [
+        'Nguyễn Văn Quang',
+        'Trần Thị Hằng',
+        'Phạm Văn Nghị',
+        'Lê Thị Nga',
+        'Ngô Văn Phong',
+        'Đinh Thị Lành',
+        'Bùi Văn Tú',
+        'Đỗ Thị Thúy',
+        'Phan Văn Kiên',
+        'Hoàng Thị Giang',
+        'Vũ Văn Quý',
+        'Cao Thị Tuyết'
+      ],
+
+      vinhphuc: [
+        'Nguyễn Văn Khánh',
+        'Trần Thị Thanh',
+        'Phạm Văn Nhân',
+        'Lê Thị Phương',
+        'Ngô Văn Hải',
+        'Đinh Thị Tâm',
+        'Bùi Văn Lộc',
+        'Đỗ Thị Thu',
+        'Phan Văn Phát',
+        'Hoàng Thị Trang',
+        'Vũ Văn Toàn',
+        'Cao Thị Lộc'
+      ],
+
+      yenbai: [
+        'Nguyễn Văn Lâm',
+        'Trần Thị Tuyết',
+        'Phạm Văn Nam',
+        'Lê Thị Bình',
+        'Ngô Văn Tài',
+        'Đinh Thị Quỳnh',
+        'Bùi Văn Thắng',
+        'Đỗ Thị Lan',
+        'Phan Văn Đạt',
+        'Hoàng Thị Thanh',
+        'Vũ Văn Dũng',
+        'Cao Thị Hồng'
+      ]
+
+
+    };
+
+    document.getElementById('province-select').addEventListener('change', function () {
+      const province = this.value;
+      const userTableBody = document.getElementById('user-table').getElementsByTagName('tbody')[0];
+      userTableBody.innerHTML = '';
+
+      if (province && users[province]) {
+        const selectedUsers = users[province].slice(0, 10);
+        selectedUsers.forEach((user, index) => {
+          const row = document.createElement('tr');
+          const cellIndex = document.createElement('td');
+          const cellName = document.createElement('td');
+
+          cellIndex.textContent = index + 1;
+          cellName.textContent = user;
+
+          row.appendChild(cellIndex);
+          row.appendChild(cellName);
+          userTableBody.appendChild(row);
+        });
+      }
+    });
+  </script>
+
+  <!-- Scripts -->
+
+  <footer class="footer-no-gap">
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © 2048 Villa Agency Co., Ltd. All rights reserved.
+
+          Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

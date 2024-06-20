@@ -1,0 +1,41 @@
+
+.section-heading h2{
+    
+    text-align: center; 
+    font-size: 50px;
+            color:#27A1EF;
+            text-shadow:
+                -1px -1px 0 whitesmoke,
+                 1px -1px 0 whitesmoke,
+                -1px  1px 0 whitesmoke,
+                 1px  1px 0 whitesmoke; /* Màu viền */
+}
+.select-city{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label-choose-city{
+    text-align: center;
+    font-size: 200%;
+    color: #27A1EF;
+}
+#province-select {
+    width: 30%;
+    border-color: #27A1EF;
+}
+.user-list{
+    text-align: center;
+}
+
+
+#user-table th, #user-table td {
+    border: 1px solid #27A1EF;
+    padding: 8px;
+    text-align: center; /* Căn giữa nội dung */
+}
+
+#user-table th {
+    background-color: #f2f2f2;
+}
